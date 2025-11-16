@@ -1,0 +1,370 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dirwan Permana — QA Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Portfolio Dirwan</a>
+        <nav class="nav" id="main-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1 class="fade">Hi, I'm Dirwan Permana</h1>
+            <p class="lead fade" data-delay="100">QA Engineer with <strong>2+ Years of Experience</strong> in Manual & Automation Testing. I'm passionate about delivering high-quality products through scalable testing frameworks and robust automation. Let's build reliable software together!</p>
+            <a class="btn" id="downloadCV">Download CV</a>
+          </div>
+
+          <div class="hero-photo fade" data-delay="300">
+            <img src="assets/dirwan.png" alt="Foto Dirwan" />
+          </div>
+        </div>
+      </section>
+
+      <section class="about container" id="about">
+  <h2 class="section-title fade">About Me</h2>
+  <p class="fade" data-delay="100">I'm a Software Quality Assurance Engineer with <strong>2+ years of professional experience</strong> in manual and automation testing. Passionate about delivering premium-quality products through structured approaches—from detailed test planning and comprehensive test case design, to rigorous API validation, maintainable automation frameworks, and seamless CI/CD integration.</p>
+  
+  <p class="fade" data-delay="150"><strong style="color: #007bff;">🚀 Continuous Learning & Growth Mindset:</strong> I believe technology evolves constantly, and staying updated is key to delivering maximum value. That's why I actively learn from leading platforms like UDEMY, Dicoding, and BuildWithAngga—always mastering the latest tools, best practices, and cutting-edge methodologies in QA. This commitment ensures every project receives optimal, modern, and future-proof testing solutions.</p>
+
+  <div class="card-slider about-cards fade" data-delay="200" aria-label="About cards slider">
+    <button class="slider-btn prev" aria-label="Sebelumnya">‹</button>
+    <div class="slider-track">
+      <div class="about-card slide">
+        <h3>🎓 Indraprasta PGRI University</h3>
+        <p><strong>Bachelor of Informatics Engineering (S1 Teknik Informatika)</strong></p>
+        <p style="font-size: 14px; color: #666; margin-top: 10px;"><em>Focus Areas:</em></p>
+        <ul style="font-size: 14px;">
+          <li>Software Development & Programming</li>
+          <li>Quality Assurance & Testing Methodologies</li>
+          <li>Web Development (Frontend & Backend)</li>
+          <li>Database Design & Management</li>
+          <li>Desktop Application Development</li>
+        </ul>
+      </div>
+
+      <div class="about-card slide">
+        <h3>💻 UDEMY – The Complete Software Testing Bootcamp</h3>
+        <p><strong>Professional QA Training Program</strong></p>
+        <p style="font-size: 14px; color: #666; margin-top: 10px;"><em>Key Topics Covered:</em></p>
+        <ul style="font-size: 14px;">
+          <li>Manual Testing & Test Strategy</li>
+          <li>API Testing with Postman</li>
+          <li>Performance Testing — JMeter</li>
+          <li>Automation Testing — Playwright & Katalon</li>
+          <li>Test Case Design & Execution</li>
+        </ul>
+        <button class="cert-download-btn" data-cert="udemy" title="Download Certificate">📄 Download Certificate</button>
+      </div>
+
+      <div class="about-card slide">
+        <h3>💻 Codepolitan - Full Stack Web Developer</h3>
+        <p><strong>FullStack Web Development Understanding</strong></p>
+        <p style="font-size: 14px; color: #666; margin-top: 10px;"><em>Core Competencies:</em></p>
+        <ul style="font-size: 14px;">
+          <li>Javascript Programming</li>
+          <li>OOP Javascript</li>
+          <li>Vue JS</li>
+          <li>Fetch API</li>
+          <li>React JS</li>
+          <li>Mongo DB</li>
+          <li>Node JS</li>
+        </ul>
+        <button class="cert-download-btn" data-cert="codepolitan" title="Download Certificate">📄 Download Certificate</button>
+      </div>
+
+      <div class="about-card slide">
+        <h3>💻 BuildWithAngga – MERN Stack Development</h3>
+        <p><strong>FullStack - Create CMS and Web Movies Tickets</strong></p>
+        <p style="font-size: 14px; color: #666; margin-top: 10px;"><em>Technical Knowledge Gained:</em></p>
+        <ul style="font-size: 14px;">
+          <li>MERN Stack Architecture & Best Practices</li>
+          <li>Frontend : React JS, shadcn.ui</li>
+          <li>Backend : Express JS and Mongo DB</li>
+        </ul>
+        <button class="cert-download-btn" data-cert="buildwithangga" title="Download Certificate">📄 Download Certificate</button>
+      </div>
+      <div class="about-card slide">
+        <h3>💻 Udemy – Cypress Automation</h3>
+        <p><strong>Professional QA Training Program</strong></p>
+        <p style="font-size: 14px; color: #666; margin-top: 10px;"><em>Technical Knowledge Gained:</em></p>
+        <ul style="font-size: 14px;">
+          <li>End to end test with automation</li>
+          <li>Javascript with cypress</li>
+        </ul>
+        <button class="cert-download-btn" data-cert="cypress" title="Download Certificate">📄 Download Certificate</button>
+      </div>
+      <div class="about-card slide">
+        <h3>💻 AfterOffice – Bootcamp Selenium Intensif</h3>
+        <p><strong>Professional QA Training Program</strong></p>
+        <p style="font-size: 14px; color: #666; margin-top: 10px;"><em>Technical Knowledge Gained:</em></p>
+        <ul style="font-size: 14px;">
+          <li>API Testing with Rest Assured</li>
+          <li>Selenium Testing</li>
+          <li>Cucumber</li>
+          <li>CI/CD Jenkins</li>
+        </ul>
+        <button class="cert-download-btn" data-cert="selenium" title="Download Certificate">📄 Download Certificate</button>
+      </div>
+    </div>
+    <button class="slider-btn next" aria-label="Selanjutnya">›</button>
+    <div class="slider-dots" aria-hidden="false"></div>
+  </div>
+</section>
+
+    <section class="skills container" id="skills">
+        <h2 class="section-title fade">Skills & Expertise</h2>
+        
+        <div class="skills-intro fade" data-delay="50">
+          <p>With 2+ years of professional experience, I've mastered Manual and Automation Testing using industry-standard tools. My expertise spans the full-spectrum of QA\u2014from strategic planning through execution and reporting. Every skill is crafted to ensure zero-defect delivery:</p>
+        </div>
+
+        <div class="card-slider skills-slider fade" data-delay="100" aria-label="Skills cards slider">
+          <button class="slider-btn prev" aria-label="Sebelumnya">‹</button>
+          <div class="slider-track">
+            <div class="skills-category slide">
+              <h3>🧪 Manual Testing</h3>
+              <ul class="skill-list">
+                <li>Test Planning & Strategy</li>
+                <li>Test Case Design</li>
+                <li>Bug Reporting</li>
+                <li>User Acceptance Testing</li>
+                <li>Exploratory Testing</li>
+              </ul>
+            </div>
+
+            <div class="skills-category slide">
+              <h3>⚙️ Automation Testing</h3>
+              <ul class="skill-list">
+                <li>Selenium WebDriver</li>
+                <li>Playwright</li>
+                <li>Katalon Studio</li>
+                <li>CI/CD Jenkins</li>
+              </ul>
+            </div>
+
+            <div class="skills-category slide">
+              <h3>🔌 API & Performance Testing</h3>
+              <ul class="skill-list">
+                <li>Postman API Testing</li>
+                <li>Rest-Assured (Java)</li>
+                <li>JMeter Load Testing</li>
+                <li>Performance Analysis</li>
+              </ul>
+            </div>
+
+            <div class="skills-category slide">
+              <h3>🛠️ Tools & Technologies</h3>
+              <ul class="skill-list">
+                <li>Java Programming</li>
+                <li>Javascript Programming</li>
+                <li>Vue JS</li>
+                <li>HTML/CSS</li>
+              </ul>
+            </div>
+            <div class="skills-category slide">
+              <h3>🛠️ Tools & Technologies</h3>
+              <ul class="skill-list">
+                <li>Git & GitHub</li>
+                <li>SQL & Database Testing</li>
+                <li>AS400</li>
+                <li>FTP and SFTP</li>
+              </ul>
+            </div>
+            <div class="skills-category slide">
+              <h3>🛠️ Non Tecnical</h3>
+              <ul class="skill-list">
+                <li>Communications</li>
+                <li>BRD/PRD/FSD Knowledge</li>
+                <li>Agile</li>
+                <li>Analitycal thinking</li>
+                <li>Time management</li>
+                <li>MS Office</li>
+              </ul>
+            </div>
+          </div>
+          <button class="slider-btn next" aria-label="Selanjutnya">›</button>
+          <div class="slider-dots" aria-hidden="false"></div>
+        </div>
+    </section>
+
+<!-- Section Experience -->
+      <section class="projects container" id="projects">
+  <h2 class="section-title fade">My Experience</h2>
+  <div class="card-slider project-slider fade" data-delay="100" aria-label="Projects slider">
+    <button class="slider-btn prev" aria-label="Sebelumnya">‹</button>
+    <div class="slider-track">
+      <div class="project-card slide">
+        <img src="assets/sqa.jpg" alt="KB Bukopin Project">
+        <h3>MITRAMAS INFOSYS GLOBAL — KB Bukopin</h3>
+        <p><em>Software Quality Assurance — PT Bank Bukopin.Tbk</em><br><strong>Jan 2024 – Jul 2024</strong></p>
+        <p><strong>Project: Migration Core Banking System(Mobile Banking)</strong></p>
+        <ul>
+          <li>Designed testing strategies & aligned requirements with PMO and Developer from Korea.</li>
+          <li>Developed 11,000+ test cases from BRD</li>
+          <li>Execute End to end test on SIT and UAT</li>
+          <li>DB validation using DBeaver</li>
+          <li>Testing on EDC mechine and ATM Mechine</li>
+        </ul>
+      </div>
+
+      <div class="project-card slide">
+        <img src="assets/sqa.jpg" alt="CIMB Niaga Project">
+        <h3>PT. Bumi Amartha Teknologi Mandiri — CIMB Niaga</h3>
+        <p><em>Software Quality Assurance — PT Bank CIMB Niaga Tbk</em><br><strong>Aug 2024 – Jun 2025</strong></p>
+        <p><strong>Project: Application Self Service Bank Revamp</strong></p>
+        <ul>
+          <li>Manual & automated testing (Selenium) for Web SSB revamp.</li>
+          <li>Executed SIT & UAT, ensured integration and account opening flows.</li>
+          <li>API testing with Postman, DB checks with DBeaver.</li>
+          <li>Tested Octo Merchant mobile app — QRIS payment validation.</li>
+          <li>Tested AS400</li>
+          <li>Tested Create and Replacement Card</li>
+        </ul>
+      </div>
+
+      <div class="project-card slide">
+        <img src="assets/sqa.jpg" alt="JMeter Test">
+        <h3>PT. Murni Solusindo Nusantara</h3>
+        <p><em>Software Quality Assurance Engineer</em><br><strong>Jun 2025 – Present</strong></p>
+        <p><strong>Project: Migration Database Smartgateway App and Fraud Detection on MDS Application</strong></p>
+        <ul>
+          <li>Spearheaded comprehensive testing for Database Smartgateway migration and MDS application transaction systems (AML and fraud detection).</li>
+          <li>Created & executed test cases across functional, integration, regression, and E2E scenarios with full documentation.</li>
+          <li>Performed SIT/UAT execution, OSD deployment support, and client coordination for smooth go-live.</li>
+          <li>Built Playwright automation & JMeter performance testing; validated APIs with Postman; tested XML-based financial transactions.</li>
+          <li>Implemented HTTPS, Message Signing, and secure authentication protocols for PRM transaction flows.</li>
+          <li>Executed data validation via DBeaver/MS SQL for AML and fraud detection accuracy.</li>
+        </ul>
+      </div>
+    </div>
+    <button class="slider-btn next" aria-label="Selanjutnya">›</button>
+    <div class="slider-dots" aria-hidden="false"></div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="projects container" id="projects">
+  <h2 class="section-title fade">My Projects</h2>
+  <div class="card-slider project-slider fade" data-delay="100" aria-label="Projects slider">
+    <button class="slider-btn prev" aria-label="Sebelumnya">‹</button>
+    <div class="slider-track">
+      <div class="project-card slide">
+        <img src="assets/testCase.jpeg" alt="Test Case">
+        <h3>Test Case, documentation Report & Bug Reporting</h3>
+        <p>Structured test documentation and clear bug reports to improve traceability and reduce regression risk.</p>
+        <a href="https://docs.google.com/spreadsheets/d/18e0yNmR4O_41qHQCI_cRbNlw5DCMt0ieWXcOXwytoTI/edit?usp=sharing" target="_blank" rel="noopener">View Details</a>
+      </div>
+
+      <div class="project-card slide">
+        <img src="assets/selenium.png" alt="Selenium Automation">
+        <h3>Web Automation — Selenium & CI/CD</h3>
+        <p>Automated functional tests using Selenium integrated with Jenkins to enable continuous validation and faster release cycles.</p>
+        <a href="https://github.com/dirwanpermana/SeleniumWithDirwan.git" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+
+      <div class="project-card slide">
+        <img src="assets/reactJS.jpg" alt="React Website">
+        <h3>School Website — React.js</h3>
+        <p>Responsive React application built for school administration with emphasis on usability and testability.</p>
+        <a href="https://github.com/dirwanpermana/webSekolah.git" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+      
+      <div class="project-card slide">
+        <img src="assets/playright.jpg" alt="Playwright">
+        <h3>Playwright — End-to-End Testing</h3>
+        <p>Playwright-based end-to-end test suites and test design practices to ensure reliable browser automation.</p>
+        <a href="https://lnkd.in/gA6cpM4G" target="_blank" rel="noopener">View on Youtube</a>
+      </div>
+
+      <div class="project-card slide">
+        <img src="assets/mern.png" alt="MERN App">
+        <h3>MERN — Cinema Ticketing App</h3>
+        <p>Full-stack MERN application for ticket booking with focus on resilient APIs and end-to-end user flows.</p>
+        <a href="https://www.linkedin.com/posts/dirwan-permana-189a441a4_javascript-reactjs-midtrans-activity-7305192882129289216-qVh3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_aF_kBTe18A1UKR27ajfgzOzarvS0fOOM" target="_blank" rel="noopener">View on LinkedIn</a>
+      </div>
+
+    </div>
+    <button class="slider-btn next" aria-label="Selanjutnya">›</button>
+    <div class="slider-dots" aria-hidden="false"></div>
+  </div>
+</section>
+
+
+      <section class="contact container" id="contact">
+        <div class="contact-inner">
+          <div class="contact-content fade" data-delay="0">
+            <h2 class="section-title">Let's Build Quality-First Products Together</h2>
+            <p class="contact-subtitle">Partner with a Passionate QA Engineer for Exceptional Results</p>
+            
+            <div class="contact-description fade" data-delay="100">
+              <p>I understand that product quality is the foundation of success. With 2+ years of experience and strong passion for testing excellence, I'm ready to help your team catch every edge case, build reliable automation, comprehensive API validation, and robust CI/CD pipelines—ensuring every release is confident, smooth, and market-ready.</p>
+              
+              <div class="contact-features">
+                <div class="feature-item fade" data-delay="150">
+                  <span class="feature-icon">⚡</span>
+                  <h4>Quick Response</h4>
+                  <p>Available to help within 24 hours</p>
+                </div>
+                <div class="feature-item fade" data-delay="200">
+                  <span class="feature-icon">✓</span>
+                  <h4>Proven Solutions</h4>
+                  <p>Battle-tested QA frameworks & methodologies</p>
+                </div>
+                <div class="feature-item fade" data-delay="250">
+                  <span class="feature-icon">📊</span>
+                  <h4>Detailed Reporting</h4>
+                  <p>Comprehensive reports for every project</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-cta fade" data-delay="150">
+            <div class="cta-box">
+              <h3>Get In Touch Today</h3>
+              <p>Discuss your project and how I can help elevate your QA strategy & delivery</p>
+              
+              <div class="contact-methods">
+                <button id="copyEmailBtn" class="btn btn-primary" type="button">
+                  <span>📧</span> Copy Email
+                </button>
+                <a href="https://www.linkedin.com/in/dirwan-permana-189a441a4/" class="btn btn-secondary" target="_blank">
+                  <span>🔗</span> LinkedIn
+                </a>
+              </div>
+              
+              <p class="contact-note">Response within 24 hours | Free consultation for new projects</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Dirwan Permana — QA Engineer</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
